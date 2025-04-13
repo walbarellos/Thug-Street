@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Runner Tower Defense</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="stats">
+    <div>Soldados: <span id="soldiers">0</span></div>
+    <div>Armas: <span id="weapons">0</span></div>
+    <div>Pontos: <span id="score">0</span></div>
+    <div>Vida:
+      <div id="healthbar"><div id="health"></div></div>
+    </div>
+  </div>
+
+  <div id="game">
+    <div class="lane" id="lane0"></div>
+    <div class="lane" id="lane1"></div>
+    <div class="lane" id="lane2"><div id="fire"></div></div>
+    <div id="player" class="player">
+      <pre>O
+/|\
+/ \</pre>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
